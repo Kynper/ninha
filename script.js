@@ -55,8 +55,3 @@ function play() {
     console.log("supostamente tocando")
     tocando = true
 }
-
-while (tocando == false) {
-    play()
-    console.log("tentando tocar")
-}
