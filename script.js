@@ -48,3 +48,9 @@ setInterval(function(){
     document.getElementById("feliz").style.color = `rgb(${Math.floor(Math.random() * (255 + 1))}, ${Math.floor(Math.random() * (255 + 1))}, ${Math.floor(Math.random() * (255 + 1))})`
 }, 1000)
 
+
+function play() {
+    document.getElementById("audio").play()
+}
+
+play()
