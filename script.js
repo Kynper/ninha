@@ -25,12 +25,12 @@ if (hora >= 2) {
 }
 if (hora >= 8) {
     p2.style.width = "0"
-    a2.innerHTML = ""
+    a2.innerHTML = "Gatinhos"
     i2.src = "https://cdn-icons-png.flaticon.com/128/25/25215.png"
 }
 if (hora >= 12) {
     p3.style.width = "0"
-    a3.innerHTML = ""
+    a3.innerHTML = "Música"
     i3.src = "https://cdn-icons-png.flaticon.com/128/25/25215.png"
 }
 if (hora >= 18) {
@@ -47,11 +47,3 @@ if (hora >= 22) {
 setInterval(function(){
     document.getElementById("feliz").style.color = `rgb(${Math.floor(Math.random() * (255 + 1))}, ${Math.floor(Math.random() * (255 + 1))}, ${Math.floor(Math.random() * (255 + 1))})`
 }, 1000)
-
-let tocando = false
-
-function play() {
-    document.getElementById("audio").play()
-    console.log("supostamente tocando")
-    tocando = true
-}
