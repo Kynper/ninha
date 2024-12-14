@@ -35,7 +35,7 @@ if (hora >= 12) {
 }
 if (hora >= 18) {
     p4.style.width = "0"
-    a4.innerHTML = ""
+    a4.innerHTML = "Dates"
     i4.src = "https://cdn-icons-png.flaticon.com/128/25/25215.png"
 }
 if (hora >= 22) {
