@@ -38,11 +38,6 @@ if (hora >= 18) {
     a4.innerHTML = "Dates"
     i4.src = "https://cdn-icons-png.flaticon.com/128/25/25215.png"
 }
-if (hora >= 22) {
-    p5.style.width = "0"
-    a5.innerHTML = ""
-    i5.src = "https://cdn-icons-png.flaticon.com/128/25/25215.png"
-}
 
 setInterval(function(){
     document.getElementById("feliz").style.color = `rgb(${Math.floor(Math.random() * (255 + 1))}, ${Math.floor(Math.random() * (255 + 1))}, ${Math.floor(Math.random() * (255 + 1))})`
